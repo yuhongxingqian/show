@@ -1,0 +1,162 @@
+
+#swiper {
+	width: 100%;
+	height: 100%;
+}	
+
+p {
+	font-size: 0.8rem;
+}
+
+.con.block {
+	display: block;
+}
+
+.swiper-slide {
+	display: table;
+	position: relative;
+}
+
+.my_at {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.my_at .my_head {
+	width: 4rem;
+	height: 4rem;
+	border-radius: 50%;
+	background: #666;
+	margin: 0 auto;
+}
+
+.my_pop {
+	font-size: 1.1rem;
+	line-height: 2rem;
+}
+
+.swiper_name {
+	text-align: center;
+	width: 100%;
+	position: absolute;
+}
+
+.fra {
+	width: 100%;
+}
+
+.fra li {
+	width: 8rem;
+	float: left;
+}
+
+.fra li img {
+	width: 1.5rem;
+	height: 1.5rem;
+}
+
+.fra li p {
+	font-size: 0.8rem;
+	text-align: center;
+}
+
+.exp {
+	margin-top: 60px;
+	height: calc(100% - 60px);
+}
+
+.con {
+	width: 100%;
+	float: left;
+	height: 100%;
+	display: none;
+	line-height: 1.2rem;
+}
+
+.exp {
+	height: calc(100% - 2rem);
+	padding: 0 1rem;
+}
+
+.eap_btn {
+	height: 1.5rem;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+.btn_li {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background: #666;
+	float: left;
+	margin-right: 0.5rem;
+}
+
+.act {
+	background: #007AFF;
+}
+
+.my_pro {
+	padding: 1rem;
+	height: calc(100% - 2rem);
+	padding-top: 2rem;
+}
+
+.pro_name {
+	color: #007AFF;
+}
+
+.pro_a {
+	width: 100%;
+	height: 1rem;
+}
+
+.pro_a img {
+	float: right;
+	width: 1rem;
+	height: 1rem;
+}
+
+@media only screen and (max-width: 641px) {
+	.pro_li {
+		width: 100%;
+		height: 100%;
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 641px) {}
+
+.psl {
+	height: calc(100% - 2rem);
+	padding-top: 2rem;
+	text-align: center;
+}
+
+.psl>p>span {
+	margin-right: 0.5rem;
+}
+
+.lianx {
+	position: absolute;
+	bottom: 0.8rem;
+	left: 50%;
+	margin-left: -1rem;
+}
+
+.lianx a img {
+	width: 1rem;
+	height: 1rem;
+}
+.skills {padding-top: 3rem;}
+.skills li{
+	padding-left: 1rem;color: #FFF;
+	height: 1.5rem;font-size: 0.6rem;background: #000000;text-align: left;line-height: 1.5rem;margin-top: 0.2rem;
+	transition: width 2s;overflow: hidden;width: 0;
+}
+.sa{
+	padding: 1rem;
+}
